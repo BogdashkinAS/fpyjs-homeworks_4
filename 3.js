@@ -25,7 +25,6 @@ async function Number(num) {
         if(isNaN(answer)) {
             console.log(`Вы ввели не число! Попытка: ${+counter}\n`);
             continue;
-            // Number(num);
         }
 
         if(answer === num) {
